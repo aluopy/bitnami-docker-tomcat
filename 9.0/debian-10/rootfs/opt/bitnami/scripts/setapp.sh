@@ -5,7 +5,7 @@ set -o errexit
 set -o pipefail
 # set -o xtrace # Uncomment this line for debugging purpose
 
-tomcat_path=/home/sdzfp/dtomcat-a9kpfw-8090
+tomcat_path=/opt/bitnami/tomcat
 conf_path=${tomcat_path}/webapps/zzs_kpfw/WEB-INF/classes
 file_log=${conf_path}/log4j2.xml
 file_zoo=${conf_path}/general.properties
