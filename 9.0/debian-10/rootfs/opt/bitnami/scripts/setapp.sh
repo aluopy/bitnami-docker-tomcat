@@ -182,4 +182,4 @@ else
     fi
 fi
 
-exec "$@"
+#exec "$@"
