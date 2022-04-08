@@ -15,6 +15,9 @@ set -o pipefail
 # Load Tomcat environment variables
 . /opt/bitnami/scripts/tomcat-env.sh
 
+# Load App config
+. /opt/bitnami/scripts/setapp.sh
+
 print_welcome_page
 
 if [[ "$*" = *"/opt/bitnami/scripts/tomcat/run.sh"* ]]; then
