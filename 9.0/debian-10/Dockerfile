@@ -14,7 +14,7 @@ RUN sed -i '1i\deb http://mirrors.aliyun.com/debian/ buster main non-free contri
 # RUN apt-get install -y locales locales-all
 RUN apt-get install -y locales && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
-	locale-gen en_US.UTF-8
+    locale-gen en_US.UTF-8
 
 ENV TZ="Asia/Shanghai" \
     LC_ALL="en_US.UTF-8" \
