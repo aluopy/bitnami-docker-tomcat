@@ -16,7 +16,7 @@ set -o pipefail
 . /opt/bitnami/scripts/tomcat-env.sh
 
 # Load App config
-. /opt/bitnami/scripts/setapp.sh
+. /opt/bitnami/scripts/tomcat/setapp.sh
 
 print_welcome_page
 
